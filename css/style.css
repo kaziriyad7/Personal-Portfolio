@@ -93,7 +93,7 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: rgb(221, 19, 19);
     font-size: 35px;
     font-weight: 600;
 }
@@ -102,7 +102,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: rgb(72, 179, 58);
 }
 .navbar .menu li{
     list-style: none;
@@ -110,7 +110,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: rgb(129, 226, 110);
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -120,5 +120,41 @@ section .title::after{
     color: crimson;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: rgb(65, 205, 230);
+}
+
+
+/* menu btn styling */
+.menu-btn{
+    color: rgb(235, 180, 180);
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: crimson;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: rgb(236, 172, 172);
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.scroll-up-btn:hover{
+    filter: brightness(90%);
 }

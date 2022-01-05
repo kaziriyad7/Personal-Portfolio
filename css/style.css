@@ -69,7 +69,7 @@ section .title::after{
     font-size: 20px;
     color: crimson;
     padding: 0 5px;
-    background: #fff;
+    background: rgb(255, 255, 255);
     transform: translateX(-50%);
 }
 
@@ -93,12 +93,12 @@ section .title::after{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: rgb(221, 19, 19);
+    color: rgb(226, 24, 24);
     font-size: 35px;
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: rgb(179, 11, 45);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -166,7 +166,7 @@ section .title::after{
     display: flex;
     background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
-    color: rgb(226, 45, 157);
+    color: rgb(17, 89, 223);
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -198,7 +198,7 @@ section .title::after{
 .home .home-content a{
     display: inline-block;
     background: crimson;
-    color: rgb(80, 30, 219);
+    color: rgb(228, 223, 241);
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -263,7 +263,7 @@ section .title::after{
 
 /* services section styling */
 .services, .teams{
-    color:#fff;
+    color:rgb(248, 188, 188);
     background: #111;
 }
 .services .title::before,

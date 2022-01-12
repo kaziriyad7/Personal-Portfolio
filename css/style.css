@@ -97,7 +97,7 @@ section .title::after{
     justify-content: space-between !important;
 }
 .navbar .logo a{
-    color: #fff !important;
+    color: rgb(243, 4, 4) !important;
     font-size: 35px !important;
     font-weight: 600 !important;
 }
@@ -114,7 +114,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block !important;
-    color: #fff !important;
+    color: rgb(230, 36, 36) !important;
     font-size: 18px !important;
     font-weight: 500 !important;
     margin-left: 25px !important;
@@ -168,9 +168,9 @@ a{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/backGround.jpg") no-repeat center;
+    background: url("../images/backGround.jpg") no-repeat center;
     height: 100vh;
-    color: rgb(72, 223, 35);
+    color: rgb(247, 241, 241);
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -309,39 +309,7 @@ a{
 }
 
 
-/* project start  */
-.projects{
-    background: #FFFFFF;
-}
-.projects .title::after{
-    content: "what i do";
-}
-.projects .serv-content .card{
-    width: 100%;
-    background: rgb(250, 245, 245);
-    text-align: center;
-    border-radius: 6px;
-    padding: 30px 25px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.projects .serv-content .card .box {
-    display:flex;
-}
-.projects .serv-content .card .project-img{
-    width:50%;
-}
-.projects .serv-content .card .project-img .main-img{
-    object-fit: cover;
-    border-radius: 6px;
-}
-.projects .serv-content .card .project-img.other-img{
-    display: inline-block;
-}
-.projects .serv-content .card .project-text{
-    width:50%;
-    height: auto;
-}
+
 
 /* teams section styling */
 .blog{
